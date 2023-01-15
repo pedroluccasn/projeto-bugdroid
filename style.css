@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,200;0,600;1,100;1,500&family=Roboto+Slab:wght@500;600;700;800;900&display=swap');
+:root {
+  --cor0:#0241FF;
+  --cor1:#2C61FF;
+  --cor2:#5681FF;
+  --cor3:#80A0FF;
+  --cor4:#ABC0FF;
+  --cor5:#D5DFFF;
+}
+header {
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+  padding: 1px;
+  border-radius: 5px;
+}
+header > h1 {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+header > p {
+  font-family: 'Chivo Mono', monospace;
+  color: whithe;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+nav > a {
+  color: white;
+  padding: 5px;
+  text-shadow: 1px 2px black;
+  text-decoration: none;
+}
+main {
+  font-family: 'Chivo Mono', monospace;
+  min-width: 400px;
+  max-width: 800px;
+  margin: auto;
+}
+main h1, h2 {
+  background-image: linear-gradient(to right, var(--cor4), transparent);
+}
+main p {
+  padding: 5px;
+  text-align: justify;
+  text-indent: 15px;
+}
+img {
+  width: 100%;
+}
+img.peq {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+aside {
+  background-color: var(--cor4);
+  border-radius: 5px 5px 0px 0px;
+}
+aside > h3 {
+  background-color: var(--cor3);
+  text-indent: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+aside > ul {
+  list-style-type:"\2714\00A0";
+  columns: 2;
+}
+footer{
+  background-color: var(--cor3);
+  text-align: center;
+}
+footer a {
+  color: white;
+}
